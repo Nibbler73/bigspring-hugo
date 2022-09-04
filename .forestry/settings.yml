@@ -5,24 +5,24 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Homepage
+  label: Familie Husić
 - type: document
   path: exampleSite/content/english/_index.md
-  label: Homepage (en)
+  label: Familie Husić (en)
 - type: document
   path: exampleSite/content/deutsch/_index.md
-  label: Homepage (de)
+  label: Familie Husić (de)
 - type: heading
-  label: Blog
+  label: Japan
 - type: document
   path: exampleSite/content/english/blog/_index.md
-  label: Blog Page (en)
+  label: Roaming in Japan (en)
 - type: document
   path: exampleSite/content/deutsch/blog/_index.md
-  label: Blog Page (de)
+  label: Roaming in Japan (de)
 - type: directory
   path: exampleSite/content/english/blog
-  label: Blog Post (en)
+  label: Japanisches Handy (en)
   create: documents
   match: "**/*"
   exclude: _index.md
@@ -30,7 +30,7 @@ sections:
   - post
 - type: directory
   path: exampleSite/content/deutsch/blog
-  label: Blog Post (de)
+  label: Japanisches Handy (de)
   create: documents
   match: "**/*"
   exclude: _index.md
@@ -43,7 +43,7 @@ sections:
   label: Contact (en)
 - type: document
   path: exampleSite/content/deutsch/contact/_index.md
-  label: Contact (de)
+  label: Kontakt (de)
 - type: document
   path: exampleSite/content/english/pricing/_index.md
   label: Pricing (en)
@@ -85,7 +85,7 @@ sections:
   label: Menu (en)
 - type: document
   path: exampleSite/config/_default/menus.de.toml
-  label: Menu (de)
+  label: Menü (de)
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
